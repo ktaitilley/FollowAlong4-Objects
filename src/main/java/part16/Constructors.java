@@ -19,17 +19,17 @@ package part16;
 public class Constructors {
     public static void main(String[] args) {
         Human human1 = new Human("Rick", 65, 70);
-        //
+        // creates a new human
         Human human2 = new Human("Morty", 16, 50);
-        //
+        //creates a new human
         System.out.println(human1.name);
-        //
+        //prints the statement
         System.out.println(human2.name);
-        //
+        //prints the statement
         human1.eat();
-        //
+        //calls the method for human 1
         human2.drink();
-        //
+        //calls the method for human 2
     }
 
 }
