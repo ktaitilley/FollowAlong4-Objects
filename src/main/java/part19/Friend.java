@@ -5,9 +5,13 @@ public class Friend {
     //creates a string variable
     static int numberOfFriends;
     //creates a static int variable
+
+    static String newestFriend;
+
     Friend(String name) {
         this.name = name;
         //assigns name to name
+        newestFriend = name;
         numberOfFriends++;
         //adds 1 to the number of friends
     }
