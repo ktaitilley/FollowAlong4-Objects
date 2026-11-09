@@ -17,19 +17,19 @@ package part17;
 public class ToStringMethod {
     public static void main(String[] args) {
         Car car = new Car();
-        //
+        //creates a new car
         System.out.println(car.make);
-        //
+        //prints the make
         System.out.println(car.model);
-        //
+        //prints the model
         System.out.println(car.color);
-        //
+        //prints the color
         System.out.println(car.year);
-        //
+        //prints the year
         System.out.println(car.toString());
-        //
+        //prints the toString
         System.out.println(car);
-        //
+        // prints the object
     }
 
 }

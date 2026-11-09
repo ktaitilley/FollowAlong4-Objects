@@ -17,17 +17,17 @@ package part17;
 public class OverloadedConstructors {
     public static void main(String[] args) {
         Pizza pizza = new Pizza("thick crust", "tomato", "mozzarella", "pepperoni");
-        //
+        //creates new pizza
         System.out.println("Here are the ingredients of your pizza: ");
-        //
+        //prints the statement
         System.out.println(pizza.bread);
-        //
+        //prints the bread
         System.out.println(pizza.sauce);
-        //
+        //prints the sauce
         System.out.println(pizza.cheese);
-        //
+        //prints the cheese
         System.out.println(pizza.topping);
-        //
+        //prints the toppings
     }
 
 }
