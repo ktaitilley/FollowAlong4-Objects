@@ -17,21 +17,21 @@ package part19;
 public class StaticKeyword {
     public static void main(String[] args) {
         System.out.println(Friend.numberOfFriends);
-        //
+        //prints the statement
         Friend friend1 = new Friend("SpongeBob");
-        //
+        //creates a new friend
         Friend friend2 = new Friend("Patrick");
-        //
+        //creates a new friend
         Friend friend3 = new Friend("Squidward");
-        //
+        //creates a new friend
         Friend.displayFriends();
-        //
+        //calls the method for friend
         Friend friend4 = new Friend("Sandy");
-        //
+        //creates a new friend
         Friend.displayFriends();
-        //
+        // calls the method for friend
         System.out.println(Math.round(3.14));
-        //
+        //prints the statement
     }
 
 }
