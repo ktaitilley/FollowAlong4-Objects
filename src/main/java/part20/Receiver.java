@@ -50,4 +50,12 @@ public class Receiver {
         return "#" + number + " " + name + ": "
                 + catches + " catches, " + yards + " yards";
     }
+
+    public double yardsPerCatch() {
+        if (catches == 0) {
+            return 0.0;
+        } else {
+            return (double) yards / catches;
+        }
+    }
 }
