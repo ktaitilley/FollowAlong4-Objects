@@ -46,4 +46,8 @@ public class Pizza {
         // default constructor
 
     }
+
+    public String toString() {
+        return ""+bread + " pizza with "+sauce+", " +cheese +", and "+ topping;
+    }
 }
